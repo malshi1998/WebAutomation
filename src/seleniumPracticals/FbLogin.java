@@ -30,7 +30,7 @@ public class FbLogin {
 		
 		
 		WebElement textBox1 =chromeDriver.findElement(By.xpath("//*[@id=\"pass\"]"));
-		textBox1.sendKeys("mal1964shi");
+		textBox1.sendKeys("*****");
 		System.out.println("password has sent");
 		
 		WebElement button=chromeDriver.findElement(By.name("login"));
