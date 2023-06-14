@@ -27,12 +27,12 @@ public class navigationPage {
 				
 				
 				WebElement textBox=chromeDriver.findElement(By.xpath("//*[@id=\"regForm\"]/div[1]/p[1]/input"));
-				textBox.sendKeys("Malshi ");
+				textBox.sendKeys("Mal ");
 				Thread.sleep(5000);
 				System.out.println("username has sent");
 				
 				WebElement textBox1=chromeDriver.findElement(By.xpath("/html/body/form/div[1]/p[2]/input"));
-				textBox1.sendKeys("Tharusha ");
+				textBox1.sendKeys("Tharu ");
 				Thread.sleep(5000);
 				System.out.println("username has sent");
 				
