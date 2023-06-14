@@ -66,7 +66,7 @@ public class facebookLogin {
 	
 	
 	WebElement textBox=choromeDriver.findElement(By.name("userName"));
-	textBox.sendKeys("Malshi Livera");
+	textBox.sendKeys("Malaka");
 	System.out.println("Sample text ahs been sent");
 	
 	Thread.sleep(3000);
