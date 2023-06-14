@@ -24,7 +24,7 @@ public class InstaLogin {
 		Thread.sleep(5000);
 	
 		WebElement textBox=chromeDriver.findElement(By.xpath("//*[@id=\"loginForm\"]/div/div[1]/div/label/input"));
-		textBox.sendKeys("malshitharusha@gmail.com");
+		textBox.sendKeys("ha@gmail.com");
 		Thread.sleep(5000);
 		System.out.println("username has sent");
 		
