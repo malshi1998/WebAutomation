@@ -30,7 +30,7 @@ public void cllBrowser() {
 	public void login() throws InterruptedException {
 
 		WebElement textBox=driver.findElement(By.xpath("//*[@id=\"loginForm\"]/div/div[1]/div/label/input"));
-		textBox.sendKeys("malshitharusha@gmail.com");
+		textBox.sendKeys("ha@gmail.com");
 		Thread.sleep(5000);
 		
 		WebElement textBox1=driver.findElement(By.xpath("//*[@id=\"loginForm\"]/div/div[2]/div/label/input"));
