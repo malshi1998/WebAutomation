@@ -25,7 +25,7 @@ public class FbLogin {
 		chromeDriver.get(burl);
 		
 		WebElement textBox=chromeDriver.findElement(By.xpath("//*[@id=\"email\"]"));
-		textBox.sendKeys("malshitharusha@gmail.com");
+		textBox.sendKeys("a@gmail.com");
 		System.out.println("username has sent");
 		
 		
